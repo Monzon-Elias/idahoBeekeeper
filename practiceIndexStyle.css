@@ -1,0 +1,119 @@
+/* 
+Beestyle1.css
+*/
+
+/* BODY STYLE */
+
+body{
+    width: 100%;
+    margin: auto;
+    background-color: #f8ffb0;
+    text-align: center;
+    font-family: sans-serif;
+    min-width: 870px;
+    overflow-x: hidden;
+}
+
+/* TOP AND BOTTOM BOXES STYLE */
+#topbox{
+    height: 70px;
+    border-bottom: 6px solid #87752d;
+}
+
+#topbox, footer{
+    background-color: #52471b;
+    width: 100%;
+}
+
+/* MAIN STYLE */
+
+main{
+    display: flex;   
+    justify-content: center; 
+    margin-top: 60px;
+}
+
+/* HEADER STYLE */
+
+header {
+    height: 90px;
+    background-image: url(images/fondoPanal.jpg);
+}
+header h1{
+    font-size: 1em;
+    margin-top: -5px;
+    color: #87752d;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+/* LOGO IMAGE */
+
+header img{
+    margin-top: -50px;
+}
+
+/* NAV STYLE */
+
+nav{
+    background-color: #87752d;
+    border: 2px solid #52471b;
+    box-shadow: 2px 2px 2px;
+}
+nav{
+    font-weight: bold;
+}
+nav a:link{
+    color: #f4f79c;
+}
+nav a:visited{
+    color: #f4f79c;
+}
+nav a:hover{
+    color: #f1d206;
+}
+nav a:active{
+    color: #fffafe;
+}
+nav a:link{
+    text-decoration: none;
+}
+nav li{
+    list-style:none;
+    display: inline;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/* FIGURE STYLE */
+
+figure{
+    float: left;
+    margin: 5px;
+    background-color: #87752d;
+    border: 5px solid #87752d;
+    border-radius: 10px;
+    color: #f8ffb0;
+    font-weight: bold;
+}
+
+blockquote{
+    max-width: 600px;
+    margin: auto;
+    font-style: italic;
+    font-size: 1.7em;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    color: #52471b;
+    font-weight: bold;
+}
+
+/* FOOTER STYLE */
+
+footer{
+    border-top: 6px solid #87752d;
+    padding: 20px;
+    color: #f2cc10;
+    font-weight: bold;
+}
